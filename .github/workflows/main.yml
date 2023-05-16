@@ -9,11 +9,13 @@ jobs:
       - uses: actions/checkout@v2
       
       - name: Go to Folder
-        run: cd Patient
+        working-directory: ./Patient
       - name: Install dependencies
+        working-directory: ./Patient
         run: npm i
 
       - name: Build Android Release
+        working-directory: ./Patient
         run: android && ./gradlew assembleRelease
 
       - name: Upload Artifact
