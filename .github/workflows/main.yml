@@ -8,8 +8,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       
-      - name: Go to Folder
-        working-directory: ./Patient
       - name: Install dependencies
         working-directory: ./Patient
         run: npm i
