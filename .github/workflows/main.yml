@@ -25,4 +25,4 @@ jobs:
         with:
           name: release
           working-directory: ./Patient
-          path: android/app/build/outputs/apk/release/app-release.apk
+          path: Patient/android/app/build/outputs/apk/release/app-release.apk
