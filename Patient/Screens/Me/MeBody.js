@@ -122,7 +122,7 @@ const MeBody = ({navigation}) => {
             }}>
             <Image
               style={styles.iconstyle}
-              source={require('../../assets/icons/messages.ico')}
+              source={require('../../assets/icons/apps.png')}
             />
           </View>
         </View>
